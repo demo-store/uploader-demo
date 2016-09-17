@@ -9,6 +9,11 @@
     <listener>
         <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
     </listener>
+    <!--contextConfigLocation在 ContextLoaderListener类中的默认值是 /WEB-INF/applicationContext.xml-->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath*:context/spring-context.xml</param-value>
+    </context-param>
     <!-- 编码过滤器 -->
     <filter>
         <filter-name>encoding</filter-name>
