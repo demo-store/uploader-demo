@@ -17,16 +17,27 @@ public class UploaderController {
      * 显示页面
      * @return
      */
-    @RequestMapping("/view")
+    @RequestMapping("/fileUpView")
     public String showDemoView(){
-        System.out.print("view method");
-        return "uploader/uploaderDemo";
+        System.out.println("fileUpView method");
+        return "uploader/upFileDemo";
     }
+
+    /**
+     * 显示图片上传页面
+     * @return
+     */
+    @RequestMapping("/imageUpView")
+    public String showUpImageView(){
+        System.out.println("imageUpView method");
+        return "uploader/upImageDemo";
+    }
+
 
     @RequestMapping("/upfile")
     @ResponseBody
     public String upFile(MultipartFile file){
-        System.out.print("fileName:"+file.getOriginalFilename()+",fileSize:"+file.getSize());
+        System.out.println("fileName:"+file.getOriginalFilename()+",fileSize:"+file.getSize());
         return "up success:"+file.getOriginalFilename();
     }
 }

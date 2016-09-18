@@ -17,8 +17,8 @@
     var _spm_res = "${spmRes}";
 </script>
 
-<!-- <link rel="stylesheet" type="text/css" href="${_base}/resources/slpmall/styles/bootstrap.css"> -->
+<!-- <link rel="stylesheet" type="text/css" href="${base}/resources/slpmall/styles/bootstrap.css"> -->
 
-<script src="${_base}/resources/spm_modules/seajs/2.3.0/dist/sea.js"></script>
-<script src="${_base}/resources/spm_modules/seajs/seajs-css.js"></script>
-<script src="${_base}/resources/spm_modules/app/core/config.js"></script>
+<script src="${base}/resources/spm_modules/seajs/2.3.0/dist/sea.js"></script>
+<script src="${base}/resources/spm_modules/seajs/seajs-css.js"></script>
+<script src="${base}/resources/spm_modules/app/seajs/config.js"></script>
