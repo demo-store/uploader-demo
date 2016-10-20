@@ -10,8 +10,8 @@ import org.springframework.web.multipart.MultipartFile;
  * Created by jackieliu on 16/9/16.
  */
 @Controller
-@RequestMapping("/uploader")
-public class UploaderController {
+@RequestMapping("/webUploader")
+public class WebUploaderController {
 
     /**
      * 显示页面
@@ -20,7 +20,7 @@ public class UploaderController {
     @RequestMapping("/fileUpView")
     public String showDemoView(){
         System.out.println("fileUpView method");
-        return "uploader/upFileDemo";
+        return "webUploader/upFileDemo";
     }
 
     /**
@@ -30,14 +30,9 @@ public class UploaderController {
     @RequestMapping("/imageUpView")
     public String showUpImageView(){
         System.out.println("imageUpView method");
-        return "uploader/upImageDemo";
+        return "webUploader/upImageDemo";
     }
 
 
-    @RequestMapping("/upfile")
-    @ResponseBody
-    public String upFile(MultipartFile file){
-        System.out.println("fileName:"+file.getOriginalFilename()+",fileSize:"+file.getSize());
-        return "up success:"+file.getOriginalFilename();
-    }
+
 }

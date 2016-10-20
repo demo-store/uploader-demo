@@ -36,6 +36,7 @@
             throw new Error( 'WebUploader does not support the browser you are using.' );
         }
         var uploader = WebUploader.create({
+            runtimeOrder:"flash",
             auto:true,
             swf:"${spmRes}/webuploader/Uploader.swf",
             server:"${base}/uploader/upfile",
