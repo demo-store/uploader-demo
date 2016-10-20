@@ -22,7 +22,7 @@
         <div id="picker">选择文件</div>
         <button id="ctlBtn" class="btn btn-default">开始上传</button>
     </div>
-    <a href="${base}/uploader/imageUpView" >上传图片</a>
+    <a href="${base}/webUploader/imageUpView" >上传图片</a>
 </div>
 <script type="text/javascript" src="${spmRes}/jquery/1.9.1/jquery.js" ></script>
 <script type="text/javascript" src="${spmRes}/webuploader/webuploader.min.js" ></script>

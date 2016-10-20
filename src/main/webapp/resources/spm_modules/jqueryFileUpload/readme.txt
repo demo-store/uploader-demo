@@ -1,3 +1,3 @@
-http://fex.baidu.com/webuploader/
+https://github.com/blueimp/jQuery-File-Upload
 
-version:0.1.5 release
+version:9.12.5
