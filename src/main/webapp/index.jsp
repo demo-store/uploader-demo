@@ -18,5 +18,6 @@
 <body>
 <a href="${base}/webUploader/fileUpView" title="webUpload">webUpload</a>
 <a href="${base}/jqUpload/upFileView" title="jQueryFileUpload">jQuery File</a>
+<a href="${base}/uploadify/img" title="uploadify">uploadify File</a>
 </body>
 </html>
